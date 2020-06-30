@@ -7,7 +7,7 @@ Fully functional blog site created in Laravel 7.
 ```bash
 # Installing Dependencies
 composer install
-npm install
+npm install && npm run dev
 
 # Create a database and edit the ".env" file as your desired
 
