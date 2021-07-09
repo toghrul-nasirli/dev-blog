@@ -9,7 +9,7 @@ Fully functional blog site created in Laravel 7.
 composer install
 npm install && npm run dev
 
-# Create a database and edit the ".env" file as your desired
+# Create a database and edit the ".env" file as you like
 
 # Create symbolic link configured for the application
 php artisan storage:link
@@ -20,6 +20,6 @@ php artisan migrate
 # Importing Datas From Seeder
 php artisan db:seed
 
-# If APP_KEY is empty, you have to generate an encryption key
+# Generate an encryption key
 php artisan key:generate
 ```
