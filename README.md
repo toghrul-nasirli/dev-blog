@@ -9,17 +9,14 @@ Fully functional blog site created in Laravel 7.
 composer install
 npm install && npm run dev
 
-# Create a database and edit the ".env" file as you like
+# Create a mysql database and edit the ".env" file as you like
 
 # Create symbolic link configured for the application
 php artisan storage:link
 
-# Running Migrations
-php artisan migrate
-
-# Importing Datas From Seeder
-php artisan db:seed
-
 # Generate an encryption key
 php artisan key:generate
+
+# Running Migrations and Seeds
+php artisan migrate --seed
 ```
